@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sample Database</title>
+<head/>
+
+<body>
+<h2> Querying a database</h2>
+<form method="post" action="database.php">
+<p> Select field to display: 
+   <select name= "select">
+       <option selected = "selected">* </option>
+	   <option>brand_id</option>
+	   <option>model</option>
+	   <option>country_of_man</option>
+	</select></p>
+  <input type="submit" value= "Send query" />
+   </form>
+ <form>
+  Brand id<input type="text" name="brand_id"/>
+  Model<input type="text" name="model"/>
+  Country<input type="text" name="country_of_man"/>
+  <input type="submit" name="Upload details"/>
+  </form>
+</body>
+</html>
