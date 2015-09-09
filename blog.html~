@@ -1,0 +1,22 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>ElleKay's Blog</title>
+</head>
+<a href = "elle.html">Home|</a>
+<a href = "about.html">About|</a>
+<a href = "tech.html">Technology|</a>
+<a href = "photos.html">Photos|</a>
+<a href = "login.html">Log in</a>
+<br><br>
+
+<body>
+
+<h1>My blog...</h1>
+<p>
+Because the faintest pen is mighter than the sharpest memory.
+Lucie: Princess of the Most High
+A work in progress
+</p>
+</body>
+</html>

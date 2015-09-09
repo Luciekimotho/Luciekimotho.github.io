@@ -1,5 +1,5 @@
 <html>
-<a href = "elle.html">Home|</a>
+<a href = "index.html">Home|</a>
 <a href = "about.html">About|</a>
 <a href = "blog.html">My blog|</a>
 <a href = "tech.html">Technology|</a>
