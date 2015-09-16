@@ -1,0 +1,51 @@
+.nav{
+    padding: 5px;
+}
+
+#home{
+    padding-top: 5px;
+    text-align: center;
+    background-image: url("images/ChevroletCamaro");
+}
+
+#education{
+    text-align: center;
+}
+
+#interests{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+
+}
+
+.jumbotron{
+    position: relative;
+    background-image: url("cupcakes2.jpg");
+    height:560px;
+    padding-top:12px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-top: 0%;
+}
+
+./*jumbotron{
+    height:812px;
+    padding-top:12px;
+    background-image:url(/images/cupcakes2.jpg);
+    background-image:url("http://www.arsenal.com/assets/_files/desktops/sep_14/gun__1410533333_1.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover; }*/
+
+.img{
+    position: relative;
+}
+
+.myText{
+    position: absolute;
+    top: 12px;
+    left: 25px;
+}
