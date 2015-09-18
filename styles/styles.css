@@ -49,3 +49,12 @@
     top: 12px;
     left: 25px;
 }
+
+.big-image{
+    opacity: 0.3;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+#education{
+
+}
