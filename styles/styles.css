@@ -2,27 +2,27 @@
     padding: 5px;
 }
 
-#home{
+.home{
     padding-top: 5px;
     text-align: center;
     background-image: url("images/ChevroletCamaro");
 }
 
-#education{
+.skills{
     text-align: center;
 }
 
-#interests{
+.interests{
     text-align: center;
 }
-#contact{
+.contact{
     text-align: center;
 
 }
 
 .jumbotron{
     position: relative;
-    background-image: url("cupcakes2.jpg");
+    background-image: url(blue.jpg);
     height:560px;
     padding-top:12px;
     background-repeat:no-repeat;
@@ -40,7 +40,7 @@
     background-position:center;
     background-size:cover; }*/
 
-.img{
+/*.img{
     position: relative;
 }
 
@@ -51,10 +51,6 @@
 }
 
 .big-image{
-    opacity: 0.3;
-    filter: alpha(opacity=10); /* For IE8 and earlier */
-}
-
-#education{
-
-}
+    opacity: 0.2;
+    filter: alpha(opacity=10);  For IE8 and earlier
+}*/
