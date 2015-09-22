@@ -22,7 +22,7 @@
 
 .jumbotron{
     position: relative;
-    background-image: url(blue.jpg);
+    background-image: url(http://static.wixstatic.com/media/71e4c2_d146aab5f9524b8ea5a3de578f1e535b.jpg_srz_1061_922_85_22_0.50_1.20_0.00_jpg_srz);
     height:560px;
     padding-top:12px;
     background-repeat:no-repeat;
@@ -30,27 +30,3 @@
     background-size: cover;
     margin-top: 0%;
 }
-
-./*jumbotron{
-    height:812px;
-    padding-top:12px;
-    background-image:url(/images/cupcakes2.jpg);
-    background-image:url("http://www.arsenal.com/assets/_files/desktops/sep_14/gun__1410533333_1.jpg");
-    background-repeat:no-repeat;
-    background-position:center;
-    background-size:cover; }*/
-
-/*.img{
-    position: relative;
-}
-
-.myText{
-    position: absolute;
-    top: 12px;
-    left: 25px;
-}
-
-.big-image{
-    opacity: 0.2;
-    filter: alpha(opacity=10);  For IE8 and earlier
-}*/
