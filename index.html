@@ -2,17 +2,24 @@
 <html>
 <head>
 <title>Lucy Kimotho</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap framework-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="styles/styles.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css" media="screen" title="no title" charset="utf-8">-->
+    <link rel="stylesheet" href="styles/styles.css">             <!-- My style sheet-->
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+
+    <!--<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
 
-    <script src="js/wow.min.js"></script>
+
 </script>
 
 </head>
@@ -41,9 +48,18 @@
     <div class="home">
     <div class="jumbotron">
         <div class="container">
-            <br><br><br><br><br>
-        <h3 class="animated fadeInLeft myText">About me</h3>
-   <p class="hometext">Lucie...Am a Christian, <br>Princess of The Most High, <br>Tech-girl, <br> a Work in Progress, <br>Passionate about Serving. </p>
+            <section class="cd-intro">
+		      <h1 class="cd-headline rotate-1 chef"  >
+			    <span>Lucie, I am a: </span>
+			    <span class="cd-words-wrapper">
+				<b class="is-visible">Tech-girl</b>
+				<b>Developer</b>
+				<b>Designer</b>
+			    </span>
+		    </h1>
+	      </section>
+       <!-- <h3>About me </h3>
+   <p class="hometext">Lucie...Am a Christian, <br>Princess of The Most High, <br>Tech-girl, <br> a Work in Progress, <br>Passionate about Serving. </p>-->
 
         </div>
         </div>
@@ -52,7 +68,7 @@
 
 
     <div class="interests">
-          <div  class="animated fadeInLeft">
+          <div>
       <h3>Skills</h3>
         <ul>
        <li> HTML, CSS and Javascript</li>
@@ -65,7 +81,7 @@
 
 
     <div class="interests">
-        <h3 class="animated slideInUp">Interests</h3>
+        <h3>Interests</h3>
         <ul>
             <li>Travelling</li>
             <li>Baking</li>
@@ -76,7 +92,7 @@
     <hr>
 
     <div class="contact" >
-        <h3 class="animated fadeInLeft">Contacts</h3>
+        <h3>Contacts</h3>
         <div class ="contactDets">
         Email address: lucie@lk.com<br>
         Phone: 0711 111111<br>
@@ -89,5 +105,8 @@
         </a>
         </div>
     </div>
+
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
