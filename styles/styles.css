@@ -8,7 +8,7 @@
 }
 #portfolio{
     text-align: center;
-    font-family: lancelot,
+
 }
 
 #interests{
@@ -29,4 +29,18 @@
     background-position:center;
     background-size: cover;
     margin-top: 0%;
+}
+
+
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  /*background:15% no-repeat #46B6AC;*/
+}
+
+.mdl-card__title .img{
+    margin-left: -5px;
 }
