@@ -1,100 +1,3 @@
-body{
-	background: ;
-}
-
-.navmenu{
-	background-color: white;
-	border: 1px solid #dedede;
-	border-radius: 4px;
-	color: #888;
-	display: block;
-	text-align: center;
-}
-
-.navmenu ul{
-    margin: 0;
-	padding: 0;
-
-}
-
-.navmenu li{
-   display: inline-block;
-	list-style-type: none;
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s;
-}
-
-
-
-.navmenu a{
-	color: #aaa;
-	display: block;
-	padding: 10px;
-	text-decoration: none;
-	margin: 15px, 15px;
-}
-
-.navmenu a:hover{
-	background-color: #00124A;
-
-}
-
-.title{
-	text-align: center;
-	color:  ;
-}
-#home{
-    /*background: url('https://media.timeout.com/images/101850569/750/422/image.jpg');*/
-    background: url('http://4.bp.blogspot.com/-xz56bLIpuWw/U8U4Vg6a3ZI/AAAAAAAAD7E/0GwWm3et_nA/s1600/IMG_0733.jpg');
-    background-repeat: no-repeat;
-    background: cover /center;
-    margin-top: -110px;
-    height: 600px;
-    /*min-width: 100%*/
-    margin: 10px;
-}
-
-.chef{
-  background:rgba(255,255,255,0.5);
-}
-
-#about{
-    text-align: center;
-    margin: 10px;
-    background-color: dimgrey;
-}
-
-#about img{
-  margin: 40px, 40px;
-}
-
-#menu{
-  /*background: url('https://media.timeout.com/images/101850569/750/422/image.jpg');*/
-  margin: 10px;
-}
-
-#contact{
-    text-align: center;
-    margin: 10px;
-    background-color: darkgray;
-    margin: 10px;
-}
-
-#location{
-  margin: 10px;
-
-}
-
-h3{
-  font-weight: bold;
-  font-size: 200%;
-  text-align: center;
-}
-
-
 /* --------------------------------
 
 Primary style
@@ -112,12 +15,12 @@ html * {
 }
 
 html {
-  font-size: 72.5%;
+  /*font-size: 72.5%;*/
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
+  /*font-size: 1.6rem;
+  font-family: "Source Sans Pro", sans-serif;*/
   color: black;
   /*background-color: #0d0d0d;*/
 }
