@@ -1,29 +1,28 @@
-.nav{
-    padding: 5px;
-}
-
 .home{
     padding-top: 5px;
     text-align: center;
-    background-image: url("images/ChevroletCamaro");
+    /*background-image: url("images/ChevroletCamaro");*/
 }
-
-.skills{
+#skills{
+    text-align: center;
+}
+#portfolio{
     text-align: center;
 }
 
-.interests{
+#interests{
     text-align: center;
 }
-.contact{
-    text-align: center;
 
+#contacts{
+    text-align: center;
 }
 
 .jumbotron{
-    position: relative;
-    background-image: url(http://static.wixstatic.com/media/71e4c2_d146aab5f9524b8ea5a3de578f1e535b.jpg_srz_1061_922_85_22_0.50_1.20_0.00_jpg_srz);
+    /*position: relative;*/
+    /*background-image: url(http://static.wixstatic.com/media/71e4c2_d146aab5f9524b8ea5a3de578f1e535b.jpg_srz_1061_922_85_22_0.50_1.20_0.00_jpg_srz);*/
     height:560px;
+    background: url('https://4.bp.blogspot.com/-jGE-_yk_kjY/VDPWGQFBLeI/AAAAAAABQSk/CUBm0PX4zos/s0/Laptop%2Bcoffee%2Bcup%2Bagenda_HD.jpg');
     padding-top:12px;
     background-repeat:no-repeat;
     background-position:center;
