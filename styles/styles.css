@@ -1,4 +1,9 @@
-
+p, #skills li, #portfolio, #portfolo a{
+    /*font-family: sofia, serif;*/
+   /* font-family: vibur, cursive;*/
+    font-family: sanvito-pro-display, serif;
+    font-size: 200%;
+}
 .demo-layout-transparent {
   position: sticky;
 }
@@ -12,6 +17,7 @@
     background: cover;
 }
 
+
 #skills{
     text-align: center;
     background: url('http://thepaperwall.com/wallpapers/computer_tech/big/big_fa6b43c0f2abc294ec30de84096be18294d9129b.jpg');
@@ -24,7 +30,6 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
 #skills  h3{
     padding-top: 50px;
     font-family: sanvito-pro-display, serif;
@@ -40,13 +45,11 @@
     font-family: sanvito-pro-display, serif;
 }
 
-
 #interests{
     text-align: center;
-  /*  background: center;
-    background: cover;*/
     color: white;
 }
+
 
 #interests p{
     font-size: 180%;
@@ -89,6 +92,8 @@
     z-index: 2;
     margin-bottom: 0px;
 }
+
+
 
 .mdl-grid{
     position: relative;
