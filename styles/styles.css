@@ -20,7 +20,7 @@
 
 #skills  h3{
         font-size: 30px;
-        color: white;
+
     padding-top: 50px;
     }
 
@@ -30,14 +30,23 @@
 #portfolio{
     text-align: center;
 
+
 }
 
 #interests{
     text-align: center;
-}
 
-#contacts{
+  /*  background: center;
+    background: cover;*/
+    color: white;
+}
+.intcon{
+    background: url(../images/lucy.png);
+    height: 600px;
+}
+#contact{
     text-align: center;
+    color: white;
 }
 
 #home{
