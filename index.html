@@ -16,15 +16,17 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="css/animate.css">
 
-</script>
+
+
 
 </head>
 
 
 <body>
 
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+<div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header mdl-layout__header--transparent">
     <div class="mdl-layout__header-row">
       <!-- Title -->
@@ -57,35 +59,21 @@
     <div id="home">
     <div class="jumbotron">
         <div class="container">
-            <section class="cd-intro">
-		      <h1 class="cd-headline letters type chef">
-			    <span>Lucie, a: </span>
-			    <span class="cd-words-wrapper waiting">
-				<b class="is-visible">coder...</b>
-				<b>designer...</b>
-				<b>developer.</b>
-			    </span><p>Code, design, develop.</p>
-		    </h1>
-	      </section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-       <!-- <h3>About me </h3>
-   <p class="hometext">Lucie...Am a Christian, <br>Princess of The Most High, <br>Tech-girl, <br> a Work in Progress, <br>Passionate about Serving. </p>-->
-            <section class="cd-intro">
-		<!--<h1 class="cd-headline slide">
-			<span>My favourite food is</span>
-			<span class="cd-words-wrapper">
-				<b class="is-visible">pizza</b>
-				<b>sushi</b>
-				<b>steak</b>
-			</span>
-		</h1>
-	</section>-->
+           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div id="typed-strings">
+                <p>Lucy...</p>
+                <p>Coder... <em>Designer...</em> Developer</p>
+                <p>Code|Design|Develop</p>
+                <p>Try it out!</p>
+            </div>
+            <span id="typed" style="white-space:pre;"></span>
         </div>
         </div>
     </div>
 
     <div id="skills">
           <div>
-      <h3>Skills</h3>
+      <h3 class="wow fadeInRight animated" data-wow-delay=".4s">Skills</h3>
         <ul>
        <li> HTML, CSS and Javascript</li>
        <li>JAVA</li>
@@ -141,7 +129,7 @@
 
 
     <div id="contact" >
-        <h3>Contacts</h3>
+        <h3 class="wow fadeInRight animated" data-wow-delay=".4s">Contacts</h3>
         <div class ="contactDets">
 
         Phone: 0711 111111<br>
@@ -154,5 +142,35 @@
 
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script>
+    $(function(){
+
+        $("#typed").typed({
+            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
 </body>
 </html>
