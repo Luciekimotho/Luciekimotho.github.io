@@ -35,14 +35,23 @@
 
 #interests{
     text-align: center;
-
   /*  background: center;
     background: cover;*/
     color: white;
 }
+
+#interests p{
+    font-size: 180%;
+}
 .intcon{
     background: url(../images/lucy.png);
     height: 600px;
+    background-repeat: no-repeat;
+     background-position:center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #contact{
     text-align: center;
