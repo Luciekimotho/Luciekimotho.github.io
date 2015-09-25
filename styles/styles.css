@@ -13,14 +13,22 @@
 
 #skills{
     text-align: center;
-    /*background: url('http://kajeevan.com/wp-content/uploads/2015/04/cmd_wall.jpg');*/
+    background: url('http://thepaperwall.com/wallpapers/computer_tech/big/big_fa6b43c0f2abc294ec30de84096be18294d9129b.jpg');
     height: 650px;
     margin-top: 0px;
+    background-repeat: no-repeat;
+     background-position:center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h3{
+
 }
 
 #skills  h3{
-        font-size: 30px;
-
     padding-top: 50px;
     }
 
