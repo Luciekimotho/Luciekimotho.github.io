@@ -1,3 +1,4 @@
+
 .demo-layout-transparent {
   position: sticky;
 }
@@ -24,12 +25,9 @@
     background-size: cover;
 }
 
-h3{
-
-}
-
 #skills  h3{
     padding-top: 50px;
+    font-family: sanvito-pro-display, serif;
     }
 
 #skills li{
@@ -37,9 +35,11 @@ h3{
 }
 #portfolio{
     text-align: center;
-
-
 }
+#portfolio h3{
+    font-family: sanvito-pro-display, serif;
+}
+
 
 #interests{
     text-align: center;
@@ -50,6 +50,10 @@ h3{
 
 #interests p{
     font-size: 180%;
+}
+
+#interests h3{
+    font-family: sanvito-pro-display, serif;
 }
 .intcon{
     background: url(../images/lucy.png);
@@ -65,7 +69,9 @@ h3{
     text-align: center;
     color: white;
 }
-
+#contact h3{
+    font-family: sanvito-pro-display, serif;
+}
 #home{
     /*position: relative;*/
     /*background-image: url(http://static.wixstatic.com/media/71e4c2_d146aab5f9524b8ea5a3de578f1e535b.jpg_srz_1061_922_85_22_0.50_1.20_0.00_jpg_srz);*/
