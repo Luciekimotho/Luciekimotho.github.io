@@ -1,0 +1,14 @@
+html, body{
+	margin: 0px;
+}
+
+nav{
+  background-color: blue;
+}
+.navbar-fixed{
+	background-color: blue;
+}
+#home{
+
+	text-align: center;
+}
