@@ -1,6 +1,6 @@
 html, body{
 	margin: 0px;
-
+    color: black;
 }
 
 nav{
@@ -12,6 +12,9 @@ nav{
 }
 #home{
    text-align: center;
+   background-image: url(../images/lucy.png);
+   height: 650px;
+   padding-top: 100px;
 }
 
 .parallax-container {
@@ -20,8 +23,19 @@ nav{
 
 #about{
 	text-align: center;
+	height: 650px;
+	padding-top: 50px;
 }
 
+#education{
+	padding-top: 50px;
+}
+#skills{
+	padding-top: 50px;
+}
+#interests{
+	padding-top: 50px;
+}
 
 .contact{
 	background-color: #E6E6E6;
@@ -38,3 +52,4 @@ button{
 	margin: 5px;
 	padding: 5px;
 }
+
