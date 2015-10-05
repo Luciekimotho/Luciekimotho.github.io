@@ -23,7 +23,7 @@ nav{
 
 #about{
 	text-align: center;
-	height: 650px;
+
 	padding-top: 50px;
 }
 
@@ -53,3 +53,7 @@ button{
 	padding: 5px;
 }
 
+#portfolio{
+	text-align: center;
+	padding-top: 50px;
+}
