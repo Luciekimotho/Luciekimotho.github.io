@@ -3,23 +3,21 @@ html, body{
     color: black;
 }
 
-nav{
-  background-color: #69f0ae green accent-2;
-}
-
-.navbar-fixed{
-	background-color: #69f0ae green accent-2;
+.navbar-default{
+    color: blue;
 }
 #home{
    text-align: center;
    background-image: url(../images/lucy.png);
+   background-repeat: no-repeat;
+   background-position: center;
+    background-size: cover;
    height: 650px;
-   padding-top: 100px;
+   /*padding-top: 100px*/;
+    padding: 0px;
+    color: white;
 }
 
-.parallax-container {
-      height: 650px;
-    }
 
 #about{
 	text-align: center;
@@ -37,23 +35,90 @@ nav{
 	padding-top: 50px;
 }
 
-.contact{
-	background-color: #E6E6E6;
-	margin: 10px;
-	padding: 10px;
-	border-radius: 10px;
-}
-
-input{
-	border: 2px solid black;
-}
-
-button{
-	margin: 5px;
-	padding: 5px;
-}
 
 #portfolio{
 	text-align: center;
 	padding-top: 50px;
+}
+#portfolio img{
+    height: 230px;
+    width: 300px;
+}
+
+#contact{
+   width: 40%;
+}
+.white-pink{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 20px 30px;
+    background: #fff;
+    box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    color: darkblue;
+    -webkit-border-radius: 10px;
+}
+
+.white-pink h4{
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #f5f5f5;
+    margin: -10px -30px 10px -30px;
+    color: blue;
+}
+
+.white-pink label{
+    display: block;
+    margin: 0px 0px 5px;
+}
+
+.white-pink label>span{
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.white-pink input[type="text"], .white-pink input[type="email"], .white-pink textarea,.white-pink select{
+    color: #555;
+    width: 70%;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 25px;
+    line-height: 25px;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+    box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+}
+
+.white-pink textarea{
+    height: 100px;
+    padding: 5px 0px 0px 5px;
+}
+
+.white-pink .button{
+    -moz-box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
+    background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+    background-color:#ff5bb0;
+    border-radius: 5px;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height: 35px;
+    line-height: 30px;
+    width:70px;
+    text-decoration:none;
+    border:1px solid #ee1eb5;
+    text-shadow:1px 1px 0px #c70067;
+    text-align:center;
+    color:#ffffff;
 }
