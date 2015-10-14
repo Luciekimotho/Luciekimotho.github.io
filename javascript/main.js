@@ -1,14 +1,32 @@
 $.material.init()
 
-$(document).ready(function){
-  $('.dropdown-button').dropdown({
-      inDuration: 10,
-      outDuration: 225,
-      constrain_width: false, // Does not change width of dropdown to that of the activator
-      hover: true, // Activate on hover
-      gutter: 0, // Spacing from edge
-      belowOrigin: false, // Displays dropdown below the button
-      alignment: 'right' // Displays dropdown with edge aligned to the left of button
-    }
-  );
+$(document).ready(function(){
+    $window = $(window);
+    $('section[data-type="background"]').each(function(){
+        var $scroll = $(this);
+
+        $(window).scroll(function(){
+            var yPos = -($window.scrollTop()/scroll.data('speed'));
+            var coords = '50%' + yPos + 'px';
+        });
+    });
+});
+
+
+//nav
+
+$(document).ready(function(){
+
+  $(".navbar").hide();
+
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 150) {
+        $('.navbar').fadeIn();
+      } else {
+        $('.navbar').fadeOut();
+      }
+    });
+  });
+
 });

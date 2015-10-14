@@ -4,11 +4,20 @@ html, body{
 }
 
 .navbar-default{
-    color: blue;
+}
+
+
+.bg-color{
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.navbar a{
+    color: white;
 }
 #home{
    text-align: center;
-   background-image: url(../images/lucy.png);
+   background-image: url(../images/blue.jpg);
    background-repeat: no-repeat;
    background-position: center;
     background-size: cover;
@@ -16,17 +25,23 @@ html, body{
    /*padding-top: 100px*/;
     padding: 0px;
     color: white;
+    margin: 0px;
 }
 
+#home h1{
+    padding-top: 150px;
+}
 
 #about{
 	text-align: center;
-
+    background-color:rgba(0, 0, 0, 0.3);
 	padding-top: 50px;
+    margin: 0px;
 }
 
 #education{
 	padding-top: 50px;
+
 }
 #skills{
 	padding-top: 50px;
@@ -39,15 +54,27 @@ html, body{
 #portfolio{
 	text-align: center;
 	padding-top: 50px;
+    background-color:rgba(1, 0, 0, 0.3);
+    margin: -10px;
 }
 #portfolio img{
     height: 230px;
     width: 300px;
+    margin: 0px;
 }
 
 #contact{
-   width: 40%;
+    margin-top: 30px;
+
 }
+
+#copy{
+   padding: 10px;
+}
+
+/*
+**Styling for the contact form**
+*/
 .white-pink{
     margin-left: auto;
     margin-right: auto;
