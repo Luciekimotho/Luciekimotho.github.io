@@ -59,14 +59,10 @@ html, body{
 #portfolio{
 	text-align: center;
 	padding-top: 50px;
-    background-color:rgba(1, 0, 0, 0.3);
+    background-image: url(../images/black-background_00313351.jpg);
     margin: -10px;
 }
-#portfolio img{
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-}
+
 
 
 .clearfix:before, .clearfix:after { content: " "; display: table; }
@@ -162,6 +158,11 @@ html, body{
 
 
 /*hover effect on my images*/
+.hover-effect{
+    padding-right: 20px;
+    border-radius: 2px;
+    padding-left: 20px;
+}
 figure{
     overflow: hidden;
     position: relative;
@@ -178,6 +179,12 @@ figcaption{
     z-index: 100;
     top: 0;
     right: 0;
+    -webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
 
 }
 figcaption p{
@@ -211,4 +218,21 @@ figcaption a: hover{
     color: blue;
     text-decoration: none;
     vertical-align: middle;
+}
+#portfolio img{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    -webkit-transition : all 300ms;
+    -moz-transition : all 300ms;
+    transition : all 300ms;
+    max-width: 100%;
+    padding: 5px;
+}
+
+#portfolio .hover-effect:hover img{
+    -webkit-transition : scale(1.4);
+    -moz-transition : scale(1.4);
+    transition : scale(1.4);
+
 }
