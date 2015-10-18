@@ -31,6 +31,9 @@ html, body{
 #home h1{
     padding-top: 150px;
 }
+#home h1, h3{
+    font-size:5.5em;
+}
 
 #about{
 	text-align: center;
