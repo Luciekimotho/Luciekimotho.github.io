@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css" >
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
 
 
@@ -50,18 +52,19 @@
                     </ul>
                 </li>
                 <li><a class="smoothScroll" href = "#portfolio">Portfolio</a></li>
+                <li><a class="smoothScroll" href = "http://blogging-with-ghost.herokuapp.com/">Blog</a></li>
                 <li><a class="smoothScroll" href = "#contact">Contact</a></li>
                 </div>
             </ul>
-
-        </div>
-
+       </div>
    </nav>
 
 
     <div id="home" data-speed="6" data-type="background">
+        <div class="layer">
         <h1 class="wow animated slideInLeft" data-wow-delay=".1s">Lucy Kimotho</h1>
-        <h3 class="wow animated slideInRight" data-wow-delay=".2s">Designer, Coder, Developer<br>Web and Mobile apps</h3>
+        <h3 class="wow animated slideInRight" data-wow-delay=".2s">Web and Mobile Apps Developer
+        </div>
     </div>
 
 
@@ -70,9 +73,13 @@
     <div id="about" data-speed="4" data-type="background">
       <h3>ABOUT ME</h3>
         <div class="row">
-         <div class="col-md-6" >
+         <div class="col-md-7" >
           <div id="education">
-    	      <h4>Education</h4>
+    	      <h3>EDUCATION</h3>
+              <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-book fa-stack-1x fa-inverse"></i>
+                </span>
               <ul>
                 <li>September to date: <br> <strong> Moringa School </strong><br> Web and Mobile Development</li>
                 <li>January 2014 to date: <br><strong> University of Nairobi </strong><br> Bachelors Degree in Computer Science. </li>
@@ -81,9 +88,13 @@
           </div>
           </div>
 
-        <div class="col-md-6" >
+        <div class="col-md-5" >
         <div id="skills">
-          <h4>Skills</h4>
+            <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                </span>
+          <h4>SKILLS</h4>
           <p>HTML<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
               <br> CSS.<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
               <br> Javascript.<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
@@ -97,17 +108,16 @@
         </div>
 
         </div>
-       <hr>
 
         <div id="interests">
-           <h4>Interests</h4>
+           <h4>INTERESTS</h4>
            <p>Am a Christian, I love God...and love the impact my church(SALT and Limitless) has had on me. <br><br>I do photography & videography. I love photos; capturing moments and making memories.<br><br>I love working with photoshop too. <br><br> I bake, sometimes. I love cake. And vanilla icecream.<br></p>
         </div>
     </div>
 
 
     <div id="portfolio" data-speed="4" data-type="background">
-      <h4>PORTFOLIO</h4>
+      <h3>PORTFOLIO</h3>
        <p>Projects I have worked on: </p>
     <div class="row">
     <div class="col-md-4" >
@@ -123,18 +133,27 @@
         </div>
 
     <div class="col-md-4 ">
+        <div class="hover-effect">
+        <figure>
+        <img src="images/work-in-progress.jpg"><br>
+          <figcaption class="info">
+             <p>Coming soon --Chapchap</p>
+             <a class="" href="#"></a>
+         </figcaption>
+         </figure>
+        </div>
     </div>
 
       <div class="col-md-4">
-          <div class="hover-effect">
+        <div class="hover-effect">
         <figure>
         <img src="images/work-in-progress.jpg"><br>
           <figcaption class="info">
               <p>Coming soon --Devious maids</p>
              <a href="#"></a>
           </figcaption>
-      </figure>
-              </div>
+        </figure>
+        </div>
       </div>
         </div>
 <br>
@@ -143,17 +162,7 @@
 
       </div>
 
-      <div class="col-md-4">
-          <div class="hover-effect">
-        <figure>
-        <img src="images/work-in-progress.jpg"><br>
-          <figcaption class="info">
-             <p>Coming soon --Chapchap</p>
-             <a class="" href="#"></a>
-         </figcaption>
-         </figure>
-          </div>
-       </div>
+      <div class="col-md-4"></div>
 
         <div class="col-md-4">
         </div>
@@ -192,6 +201,7 @@
 
 
     <div id="contact" data-speed="2" data-type="background">
+        <h3>CONTACTS</h3>
         <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-4">
@@ -246,7 +256,7 @@
     </div>
 
   <footer>
-     <center> <p id="copy">&copy Copyright 2015<br>Lucy Kimotho</p></center>
+      <p id="copy">&copy Copyright 2015<br>Lucy Kimotho</p>
   </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

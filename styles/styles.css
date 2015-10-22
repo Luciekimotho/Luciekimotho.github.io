@@ -1,6 +1,7 @@
 html, body{
 	margin: 0px;
     color: black;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .navbar-default{
@@ -14,44 +15,69 @@ html, body{
 
 .navbar a{
     color: white;
+   /* font-family: 'Patrick Hand', cursive;*/
+    font-family: 'PT Sans', sans-serif;
 }
 #home{
    text-align: center;
-   background-image: url(../images/blue.jpg);
+    background-image: url(https://d3q49wayiwmron.cloudfront.net/wp-content/uploads/Simple-productivity-tips1.jpg);
+  /* background-image: url(http://ferguson1000jobs.com/wp-content/uploads/2015/02/Laptop.jpg);*/
+   /*background-image: url(../images/blue.jpg);*/
    background-repeat: no-repeat;
    background-position: center;
     background-size: cover;
    height: 650px;
    /*padding-top: 100px*/;
     padding: 0px;
-    color: white;
     margin: 0px;
+    position: relative;
+}
+.layer {
+    /*background-color: rgba(248, 247, 216, 0.4);*/
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #home h1{
     padding-top: 150px;
-}
-#home h1, h3{
     font-size:5.5em;
+    color: aqua;
+    font-family: 'Lobster', cursive;
+}
+#home h3{
+    font-size:3.5em;
+    color: aqua;
+    font-family: 'Lobster', cursive;
 }
 
 #about{
 	text-align: center;
-    background-color:rgba(0, 0, 0, 0.3);
+    /*background-image: url(https://d3q49wayiwmron.cloudfront.net/wp-content/uploads/Simple-productivity-tips1.jpg);*/
+    /*background-image: url(http://ferguson1000jobs.com/wp-content/uploads/2015/02/Laptop.jpg);*/
 	padding-top: 50px;
     margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.0em;
 }
 
-#education{
-	padding-top: 50px;
 
+#education{
+
+}
+
+#education li{
+    list-style: none;
 }
 
 #education li{
 
 }
 #skills{
-	padding-top: 50px;
+
     text-align: center;
 }
 #interests{
@@ -64,23 +90,28 @@ html, body{
 	padding-top: 50px;
     background-image: url(../images/black-background_00313351.jpg);
     margin: -10px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
 }
-
-
-
-.clearfix:before, .clearfix:after { content: " "; display: table; }
-        .clearfix:after { clear: both; }
-        .clearfix { *zoom: 1; }
 
 #contact{
     margin-top: 30px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
 
 }
 .social{
     text-align: center;
+    font-family: 'PT Sans', sans-serif;
 }
 #copy{
    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+footer{
+    margin-top: -5px;
+    text-align: center;
 }
 
 /*
@@ -95,6 +126,8 @@ html, body{
     -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
     color: darkblue;
     -webkit-border-radius: 10px;
+    background-color: #C0C0C0;
+    margin-bottom: 20px;
 }
 
 .white-pink h4{
