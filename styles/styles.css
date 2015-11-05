@@ -20,13 +20,13 @@ html, body{
 }
 #home{
    text-align: center;
-    background-image: url(https://d3q49wayiwmron.cloudfront.net/wp-content/uploads/Simple-productivity-tips1.jpg);
+   background-image: url(https://d3q49wayiwmron.cloudfront.net/wp-content/uploads/Simple-productivity-tips1.jpg);
   /* background-image: url(http://ferguson1000jobs.com/wp-content/uploads/2015/02/Laptop.jpg);*/
-   /*background-image: url(../images/blue.jpg);*/
+   /*background-image: url(../images/lucy.png);*/
    background-repeat: no-repeat;
    background-position: center;
     background-size: cover;
-   height: 650px;
+   height: 700px;
    /*padding-top: 100px*/;
     padding: 0px;
     margin: 0px;
@@ -34,7 +34,7 @@ html, body{
 }
 .layer {
     /*background-color: rgba(248, 247, 216, 0.4);*/
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -62,11 +62,12 @@ html, body{
     margin: 0px;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.0em;
+
 }
 
 
-#education{
-
+#education h3{
+text-align: center;
 }
 
 #education li{
@@ -98,6 +99,8 @@ html, body{
     margin-top: 30px;
     font-family: 'PT Sans', sans-serif;
     text-align: center;
+    /*background-image: url(../images/lucy2.jpg);*/
+    color: white;
 
 }
 .social{
@@ -204,6 +207,7 @@ footer{
 figure{
     overflow: hidden;
     position: relative;
+
 }
 
 figcaption{
