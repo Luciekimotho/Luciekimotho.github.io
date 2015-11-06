@@ -18,6 +18,10 @@ html, body{
    /* font-family: 'Patrick Hand', cursive;*/
     font-family: 'PT Sans', sans-serif;
 }
+
+#whitebg{
+    background-color: black;
+}
 #home{
    text-align: center;
    background-image: url(https://d3q49wayiwmron.cloudfront.net/wp-content/uploads/Simple-productivity-tips1.jpg);
