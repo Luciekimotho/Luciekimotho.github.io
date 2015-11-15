@@ -70,7 +70,8 @@
 
 <div id="about" class="wow animated fadeInUp" data-speed="6" data-type="background">
       <h3 class="wow animated bounceInDown">ABOUT ME</h3>
-        
+        <div class="row">
+         <div class="col-md-7" >
           <div id="education">
     	      <h3 class="wow animated zoomIn">EDUCATION</h3>
               <ul>
@@ -79,17 +80,23 @@
                   <li><strong> 2009 - 2012</strong><br>Moi Forces Academy- Lanet</li>
               </ul>
           </div>
-          
+          </div>
+
+        <div class="col-md-5" >
         <div id="skills">
           <h3 class="wow animated zoomIn">SKILLS</h3>
-          <p>HTML
-              <br> CSS.
-              <br> Javascript.
-              <br> Android. 
-              <br> Java.
-              <br> Python <br> </p>
+          <p>HTML<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+              <br> CSS.<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+              <br> Javascript.<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+              <br> Android. <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+              <br> Java.<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+              <br> Python <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+<br> </p>
         </div>
-  
+        </div>
+
+        </div>
+
         <div id="interests">
            <h4>INTERESTS</h4>
            <p>Am a Christian, I love God...and love the impact my church(SALT and Limitless) has had on me. <br><br>I do photography & videography. I love photos; capturing moments and making memories.<br><br>I love working with photoshop too. <br><br> I bake, sometimes. I love cake. And vanilla icecream.<br></p>
@@ -120,7 +127,7 @@
         <img src="images/resturant.png"><br>
           <figcaption class="info">
              <h3>ResturantApp Landing page</h3>
-              <p>Landing page for the launch of ResturantApp, subscribe to get updates when the app launches.</p>
+              <p>Landing page for the launch of ResturantApp, subscribe to get updates when the app lunces.</p>
               <h3><a href="http://resturant.bitballon.com/">Visit site</a></h3>
              <a class="" href="#"></a>
          </figcaption>
