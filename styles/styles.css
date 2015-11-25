@@ -22,6 +22,13 @@
         text-align: center;
     }
 
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent{
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: blue;
+}
+
     #home h1 {
         font-size: 5.5em;
         padding-top: 150px;
@@ -81,7 +88,6 @@
         text-align: center;
         /*background-image: url(../images/lucy2.jpg);*/
         color: black;
-        border: 5px solid black;
     }
 
     .social {

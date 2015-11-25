@@ -47,33 +47,33 @@
 <body>
     <!--     Home division with nav bar and-->
     <div class="lulu">
-    <div class="demo-layout-transparent mdl-layout mdl-js-layout" id="topdiv">
-        <header class="mdl-layout__header mdl-layout__header--transparent">
-            <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">mee</span>
-                <div class="mdl-layout-spacer"></div>
-                <nav>
-                    <a class="smoothScroll" href="#home">Home</a>
-                    <a class="smoothScroll" href="#about">About</a>
-                    <a class="smoothScroll" href="#portfolio">Portfolio</a>
-                    <a class="smoothScroll" href="http://blogging-with-ghost.herokuapp.com/">Blog</a>
-                    <a class="smoothScroll" href="#contact">Contact</a>
-                </nav>
-            </div>
-        </header>
-
-
-        <main class="mdl-layout__content" id="home" data-speed="6" data-type="background">
-            <div class="layer">
-                <div class="wow animated zoomIn">
-                    <h1>Lucy Kimotho</h1>
-                    <h3>Web and Mobile Apps Developer</h3>
+        <div class="demo-layout-transparent mdl-layout mdl-js-layout" id="topdiv">
+            <header class="mdl-layout__header mdl-layout__header--transparent">
+                <div class="mdl-layout__header-row">
+                    <span class="mdl-layout-title">LK</span>
+                    <div class="mdl-layout-spacer"></div>
+                    <nav class="mdl-navigation">
+                        <a class="smoothScroll mdl-navigation__link" href="#home">Home</a>
+                        <a class="smoothScroll mdl-navigation__link" href="#about">About</a>
+                        <a class="smoothScroll mdl-navigation__link" href="#portfolio">Portfolio</a>
+                        <a class="smoothScroll mdl-navigation__link" href="http://blogging-with-ghost.herokuapp.com/">Blog</a>
+                        <a class="smoothScroll mdl-navigation__link" href="#contact">Contact</a>
+                    </nav>
                 </div>
-            </div>
-        </main>
+            </header>
 
+
+            <main class="mdl-layout__content" id="home" data-speed="6" data-type="background">
+                <div class="layer">
+                    <div class="wow animated zoomIn">
+                        <h1>Lucy Kimotho</h1>
+                        <h3>Web and Mobile Apps Developer</h3>
+                    </div>
+                </div>
+            </main>
+
+        </div>
     </div>
-</div>
     <div id="about" class="">
 
         <h3>ABOUT ME</h3>
@@ -162,7 +162,9 @@
             <div class="mdl-cell mdl-cell--4-col">
                 <script type="text/javascript" src="https://form.myjotform.com/jsform/53134351132543"></script>
             </div>
-            <div class="mdl-cell mdl-cell--4-col"></div>
+            <div class="mdl-cell mdl-cell--4-col">
+
+            </div>
         </div>
 
 
@@ -189,10 +191,19 @@
                 </span>
                 </a>
             </div>
-            <div class="mdl-cell mdl-cell--4-col"></div>
+            <div class="mdl-cell mdl-cell--4-col">
+                <form id="myForm" method="post" action="https://script.google.com/macros/s/AKfycbw2q1bGs_gdneqbWiRDC9CfFBIh-kdUHBkjAuc3A7E9Vldq9As/exec">
+                    Name:
+                    <input type="text" name="name"><br>
+                    Email:<input type="text" name="email"><br>
+                    Message:<input type="text" name="message"><br>
+                    <button>Send</button>
+                </form>
+            </div>
         </div>
 
     </div>
+
 
     <footer>
         <p id="copy">&copy Copyright 2015
