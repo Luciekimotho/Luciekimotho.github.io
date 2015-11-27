@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Link for modernizr -->
-    <script src="js/modernizr.custom.js"></script>
+    <!-- <script src="js/modernizr.custom.js"></script>-->
     <!-- Linking my javascript and css files -->
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-blue.min.css" />
@@ -116,7 +116,7 @@
         </div>
     </div>
 
-
+    <!--portfolio section-->
     <div class="wow animated fadeInUp" id="portfolio" data-speed="4" data-type="background">
         <h3>PORTFOLIO</h3>
         <p>Projects I have worked on: </p>
@@ -154,13 +154,29 @@
         </div>
     </div>
 
-
+    <!--contact form-->
     <div class="wow animated fadeInUp" id="contact" data-speed="2" data-type="background">
         <h3>CONTACT ME</h3>
         <div class="mdl-grid">
             <div class="mdl-cell mdl-cell--4-col"></div>
             <div class="mdl-cell mdl-cell--4-col">
-                <script type="text/javascript" src="https://form.myjotform.com/jsform/53134351132543"></script>
+                <!-- <script type="text/javascript" src="https://form.myjotform.com/jsform/53134351132543"></script>-->
+                <form id="myForm" method="post" action="https://script.google.com/macros/s/AKfycbw2q1bGs_gdneqbWiRDC9CfFBIh-kdUHBkjAuc3A7E9Vldq9As/exec">
+                    Name:
+                    <input type="text" name="name" id="name"><br>
+                    Email:
+                        <input type="text" name="email" id="email"><br>
+<!--                        <span id="email-invalid" style="visibility:hidden">
+        Must be a valid email address</span>-->
+                    Message:
+                    <input type="text" name="message" id="message">
+                    <br>
+                    <button>Send</button>
+                </form>
+
+                <div style="display:none" id="thankYouMsg">
+                    <h2>Thanks, will get back to you shortly</h2>
+                </div>
             </div>
             <div class="mdl-cell mdl-cell--4-col">
 
@@ -168,7 +184,7 @@
         </div>
 
 
-
+        <!--Social media icons-->
         <div class="social mdl-grid">
             <div class="mdl-cell mdl-cell--4-col"></div>
             <div class="mdl-cell mdl-cell--4-col">
@@ -192,41 +208,42 @@
                 </a>
             </div>
             <div class="mdl-cell mdl-cell--4-col">
-                <form id="myForm" method="post" action="https://script.google.com/macros/s/AKfycbw2q1bGs_gdneqbWiRDC9CfFBIh-kdUHBkjAuc3A7E9Vldq9As/exec">
-                    Name:
-                    <input type="text" name="name"><br>
-                    Email:<input type="text" name="email"><br>
-                    Message:<input type="text" name="message"><br>
-                    <button>Send</button>
-                </form>
+
             </div>
         </div>
 
     </div>
 
-
+    <!--Footer copyright-->
     <footer>
         <p id="copy">&copy Copyright 2015
             <br>Lucy Kimotho</p>
     </footer>
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!--Links for smooth scroll-->
     <script type="text/javascript" src="javascript/smoothscroll.js"></script>
-    <script data-cfasync="false"  type="text/javascript" src="javascript/main.js"></script>
+
+    <script type="text/javascript" src="javascript/main.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="javascript/formhandler.js"></script>
+    <!--<script data-cfasync="false"  type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>-->
+
 
     <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
 
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>-->
-    <!--<script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script>
         var wow = new WOW({
             mobile: false,
             boxClass: 'wow'
         })
         wow.init();
-    </script>-->
+    </script>
 </body>
 
 </html>

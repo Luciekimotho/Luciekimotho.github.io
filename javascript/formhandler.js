@@ -9,7 +9,7 @@ function getFormData() {
         email: document.getElementById("email").value,
         message: document.getElementById("message").value
     }
-   // console.log(data);
+    console.log(data);
     return data;
 }
 
@@ -18,18 +18,19 @@ function handleFormSubmit(event) { // handles form submit withtout any jquery
     var data = getFormData(); // get the values submitted in the form
     if (!validEmail(data.email)) { // if email is not valid show error
         document.getElementById('email-invalid').style.display = 'block';
+         console.log(data.email);
         return false;
     } else {
         var url = event.target.action; //
         var xhr = new XMLHttpRequest();
         xhr.open('POST', url);
-        // xhr.withCredentials = true;
+        xhr.withCredentials = true;
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.onreadystatechange = function() {
-            //console.log(xhr.status, xhr.statusText)
-            //console.log(xhr.responseText);
-            document.getElementById('gform').style.display = 'none'; // hide form
-            document.getElementById('thankyou_message').style.display = 'block';
+            console.log(xhr.status, xhr.statusText)
+            console.log(xhr.responseText);
+            document.getElementById('myForm').style.display = 'none'; // hide form
+            document.getElementById('thankYouMsg').style.display = 'block';
             return;
         };
         // url encode form data for sending as post data
@@ -41,9 +42,9 @@ function handleFormSubmit(event) { // handles form submit withtout any jquery
 }
 
 function loaded() {
-    console.log('contact form submission handler loaded successfully');
+    // console.log('contact form submission handler loaded successfully');
     // bind to the submit event of our form
-    var form = document.getElementById('gform');
+    var form = document.getElementById('myForm');
     form.addEventListener("submit", handleFormSubmit, false);
 };
 document.addEventListener('DOMContentLoaded', loaded, false);
