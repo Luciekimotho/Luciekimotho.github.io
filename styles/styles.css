@@ -7,7 +7,7 @@
     /*for the ovelaying color effect on the home*/
 
     .layer {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.6);
         position: absolute;
         top: 0;
         left: 0;
@@ -29,15 +29,24 @@
   color: blue;
 }
 
+.lulu a{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: blue;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
     #home h1 {
-        font-size: 5.5em;
+        font-size: 6.0em;
         padding-top: 150px;
         color: blue;
         font-family: 'Lobster', cursive;
     }
 
     #home h3 {
-        font-size: 3.5em;
+        font-size: 4.5em;
         color: blue;
         font-family: 'Lobster', cursive;
     }
@@ -192,3 +201,9 @@
     .myborder {
         border: 2px solid white;
     }
+
+.form{
+    padding: 10px;
+    border: 2px solid grey;
+    background-color: lightgray;
+}
