@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lucy Kimotho</title>
-    <link rel="stylesheet" type="text/css" href="css/effect1.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" />-->
-    <link rel="stylesheet" type="text/css" href="main.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <script src="js/modernizr.custom.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
@@ -22,57 +21,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 </head>
 
-<body class="demo-1">
-    <div id="ip-container" class="ip-container">
-        <!-- initial header -->
-        <header class="ip-header">
-            <h1 class="ip-logo">
-                <img class="img-logo ip-inner" src="img/logo.png">
-				</h1>
-            <div class="ip-loader">
-                <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
-                    <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" />
-                    <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" />
-                </svg>
+<body>
+
+        <header class="">
+            <div class="row">
+                <div class="col m1 my_navbar nav-color">
+                    <ul class=" nav-list">
+                        <li class="nav-item"><a class="nav-link" href="#home"><i class="fa fa-home"></i><h5>Home</h5></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about"><i class="fa fa-user"></i><h5>About</h5></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio"><i class="fa fa-suitcase"></i><h5>Work</h5></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"> <i class="mdi-content-mail prefix"></i><h5>Contact</h5></a></li>
+                    </ul>
+                </div>
+                <div class="col m11">
+                    <img class="logo" src="img/logo.png">
+                </div>
             </div>
         </header>
-        <!-- top bar -->
-        <div class="codrops-top clearfix">
-            <div class="">
-                <nav class="nav-color my-nav">
-                    <div class=" nav-color">
-                        <ul class=" nav-list">
-                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#about">Who I am</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#portfolio">My work</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
 
-        <!-- main content -->
-        <div class="ip-main">
-            <div class="home contact">
+
+            <div class="home">
                 I had every intention of posting this on the first day of 2016 but life got in the way and I just let it. I’m going to try to be as honest as possible today (and every day really since it’s one of my goals) and get this year started on an honest note. Making: plans to rule the world. Sorta! I usually have one year goals set out but for the first time in a long time, I’m working on a five year strategy. Granted it will be as flexible as possible but I believe having a rough idea of what I want for my life will give me bigger goals to work towards on on a personal and professional level. Eating: more home cooked meals now that I’ve got my own home! I think I’ve shared before that the kitchen has never been my favourite place but the idea of learning new meals in this new space really excites me so I’ve been whipping out Food Network recipes and calling over friends who happen to be great cooks to teach me new tricks. Drinking: more and more green tea. Reading: Desert Flower by Waris Dirie. This book makes me question whether all my life’s frustrations are really as big as they seem. Wanting: more honest, open conversations with the people I love most in this world. Playing: board games with friends on a casual Friday night should be a monthly activity as far as I’m concerned. Have I ever told you about
             </div>
 
 
             <!--Contact form section-->
-            <div class="">
+            <div class="contact">
                 <div class="container contact">
                     <div class="row">
                         <div class="col m10 offset-m1 s12">
-                            <h4 class="center-align">Contact Form</h4>
+                            <h4 class="center-align">Contact Me</h4>
                             <div class="row">
                                 <div class="card">
-                                    <form action="" method="post" class="col s10">
+                                    <form class="col s10" id="myForm" method="post" action="https://script.google.com/macros/s/AKfycbw2q1bGs_gdneqbWiRDC9CfFBIh-kdUHBkjAuc3A7E9Vldq9As/exec">
                                         <div class="row">
                                             <div class="input-field col s12">
                                                 <i class="material-icons prefix">account_circle</i>
-                                                <input id="first_name" type="text" class="validate">
-                                                <label for="first_name">Name</label>
+                                                <input id="name" type="text" class="validate">
+                                                <label for="name">Name</label>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -94,26 +80,22 @@
                                         <div class="row">
                                             <div class="col m12">
                                                 <p class="right-align">
-                                                    <button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button>
+                                                    <button class="btn btn-large waves-effect waves-light">Send Message</button>
                                                 </p>
                                             </div>
                                         </div>
                                     </form>
+
+                                    <div style="display:none" id="thankYouMsg">
+                                        <h5 class="thanksMsg">Thank you,I will respond soon.</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-
-            </div>
-        </div>
-    </div>
-    <!-- /container -->
-    <script src="js/classie.js"></script>
-    <script src="js/pathLoader.js"></script>
-    <script src="js/main.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="js/formhandler.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,63 @@
+.nav-color {
+    /*background-color:rgba(255,255,255);
+    background: rgb(255, 255, 255) transparent;*/
+    /* nice browsers */
+    /*background: rgba(255, 255, 255, 0.5);*/
+    background-color: #8B0A50;
+}
+
+.my_navbar {
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+.nav-list {
+    margin-top: 130px;
+}
+
+.nav-item {
+    padding-top: 30px;
+}
+
+.nav-link {}
+
+ ul li a {
+    color:white;
+     font-size: 1.5em;
+     margin: auto;
+}
+
+ ul li a i{
+    color:white;
+     font-size: 1.5em;
+     margin: auto;
+     margin-left: 18px;
+}
+ul li a h5:hover {
+    color: black;
+    /*background: rgba(255, 255, 255, 0.5);*/
+    /*background-color: #C1CDCD;*/
+   /* border-bottom: 2px solid black;*/
+    text-align: center;
+    margin-left: -18px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: 10;
+    margin-left: -8px;
+}
+
+
+.home{
+    margin-left: 20px;
+}
+
+.contact {}
+.thanksMsg{
+    text-align: center;
+}
