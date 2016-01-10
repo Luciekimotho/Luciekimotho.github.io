@@ -23,79 +23,92 @@
 
 <body>
 
-        <header class="">
+    <header class="">
+        <div class="row">
+            <div class=" col m4 my_navbar nav-color">
+                <div class="nav-menu">
+                    <div class="home-i"><i class="fa fa-home fa-2x"></i></div>
+                    <div class="profile-i"><i class="fa fa-user fa-2x"></i></div>
+                    <div class="portfolio-i"><i class="fa fa-suitcase fa-2x"></i></div>
+                    <div class="contact-i"><i class="fa fa-envelope fa-2x"></i></div>
+                    <div class="mask2"><i class="fa fa-home fa-3x"></i></div>
+                </div>
+            </div>
+            <div class="col m8">
+                <img class="logo" src="img/logo.png">
+            </div>
+        </div>
+    </header>
+
+
+    <div class="home">
+        I had every intention of posting this on the first day of 2016 but life got in the way and I just let it. I’m going to try to be as honest as possible today (and every day really since it’s one of my goals) and get this year started on an honest note. Making: plans to rule the world. Sorta! I usually have one year goals set out but for the first time in a long time, I’m working on a five year strategy. Granted it will be as flexible as possible but I believe having a rough idea of what I want for my life will give me bigger goals to work towards on on a personal and professional level. Eating: more home cooked meals now that I’ve got my own home! I think I’ve shared before that the kitchen has never been my favourite place but the idea of learning new meals in this new space really excites me so I’ve been whipping out Food Network recipes and calling over friends who happen to be great cooks to teach me new tricks. Drinking: more and more green tea. Reading: Desert Flower by Waris Dirie. This book makes me question whether all my life’s frustrations are really as big as they seem. Wanting: more honest, open conversations with the people I love most in this world. Playing: board games with friends on a casual Friday night should be a monthly activity as far as I’m concerned. Have I ever told you about
+    </div>
+
+    <div class="portfolio">
+        <div class="row">
+            <div class="col s12 m6 l4">
+            </div>
+            <div class="col s12 m6 l4">
+            </div>
+            <div class="col s12 m6 l4">
+            </div>
+        </div>
+
+    </div>
+
+    <!--Contact form section-->
+    <div class="contact">
+        <div class="container contact">
             <div class="row">
-                <div class="col m1 my_navbar nav-color">
-                    <ul class=" nav-list">
-                        <li class="nav-item"><a class="nav-link" href="#home"><i class="fa fa-home"></i><h5>Home</h5></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about"><i class="fa fa-user"></i><h5>About</h5></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio"><i class="fa fa-suitcase"></i><h5>Work</h5></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact"> <i class="mdi-content-mail prefix"></i><h5>Contact</h5></a></li>
-                    </ul>
-                </div>
-                <div class="col m11">
-                    <img class="logo" src="img/logo.png">
-                </div>
-            </div>
-        </header>
-
-
-            <div class="home">
-                I had every intention of posting this on the first day of 2016 but life got in the way and I just let it. I’m going to try to be as honest as possible today (and every day really since it’s one of my goals) and get this year started on an honest note. Making: plans to rule the world. Sorta! I usually have one year goals set out but for the first time in a long time, I’m working on a five year strategy. Granted it will be as flexible as possible but I believe having a rough idea of what I want for my life will give me bigger goals to work towards on on a personal and professional level. Eating: more home cooked meals now that I’ve got my own home! I think I’ve shared before that the kitchen has never been my favourite place but the idea of learning new meals in this new space really excites me so I’ve been whipping out Food Network recipes and calling over friends who happen to be great cooks to teach me new tricks. Drinking: more and more green tea. Reading: Desert Flower by Waris Dirie. This book makes me question whether all my life’s frustrations are really as big as they seem. Wanting: more honest, open conversations with the people I love most in this world. Playing: board games with friends on a casual Friday night should be a monthly activity as far as I’m concerned. Have I ever told you about
-            </div>
-
-
-            <!--Contact form section-->
-            <div class="contact">
-                <div class="container contact">
+                <div class="col m10 offset-m1 s12">
+                    <h4 class="center-align">Contact Me</h4>
                     <div class="row">
-                        <div class="col m10 offset-m1 s12">
-                            <h4 class="center-align">Contact Me</h4>
-                            <div class="row">
-                                <div class="card">
-                                    <form class="col s10" id="myForm" method="post" action="https://script.google.com/macros/s/AKfycbw2q1bGs_gdneqbWiRDC9CfFBIh-kdUHBkjAuc3A7E9Vldq9As/exec">
-                                        <div class="row">
-                                            <div class="input-field col s12">
-                                                <i class="material-icons prefix">account_circle</i>
-                                                <input id="name" type="text" class="validate">
-                                                <label for="name">Name</label>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="input-field col s12">
-                                                <i class="mdi-content-mail prefix"></i>
-                                                <input id="email" type="email" class="validate" required>
-                                                <label for="email">Email</label>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="input-field col s12">
-                                                <i class="mdi-content-mail prefix"></i>
-                                                <textarea id="message" class="materialize-textarea"></textarea>
-                                                <label for="message">Message</label>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="row">
-                                            <div class="col m12">
-                                                <p class="right-align">
-                                                    <button class="btn btn-large waves-effect waves-light">Send Message</button>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </form>
-
-                                    <div style="display:none" id="thankYouMsg">
-                                        <h5 class="thanksMsg">Thank you,I will respond soon.</h5>
+                        <div class="card">
+                            <form class="col s10" id="myForm" method="post" action="https://script.google.com/macros/s/AKfycbw2q1bGs_gdneqbWiRDC9CfFBIh-kdUHBkjAuc3A7E9Vldq9As/exec">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="name" type="text" class="validate">
+                                        <label for="name">Name</label>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="mdi-content-mail prefix"></i>
+                                        <input id="email" type="email" class="validate" required>
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="mdi-content-mail prefix"></i>
+                                        <textarea id="message" class="materialize-textarea"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col m12">
+                                        <p class="right-align">
+                                            <button class="btn btn-large waves-effect waves-light">Send Message</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </form>
+
+                            <div style="display:none" id="thankYouMsg">
+                                <h5 class="thanksMsg">Thank you,I will respond soon.</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
     <script data-cfasync="false" type="text/javascript" src="js/formhandler.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
