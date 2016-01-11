@@ -101,16 +101,22 @@ body{
     text-align: center;
     background-image: url(http://www.psdgraphics.com/file/stars-background.jpg);
     margin-top: -12px;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
 }
 
-.home p, h5{
-    font-size: 1.5em;
+.home p, h3{
+    font-size: 2.5em;
     display: block;
     vertical-align: middle;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
+.home h3:hover{
+}
+
+
 .skills{
     text-align: center;
 }
@@ -150,12 +156,10 @@ body{
 
 
 .portfolio .text{
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.7);
     position: absolute;
     top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    left: 50px;
     opacity: 0;
     display: table;
     z-index: 100;
@@ -163,6 +167,7 @@ body{
     width: 330px;
     color: white;
      text-align: center;
+    font-size: 1.3em;
     }
 
 .portfolio .port-img:hover .text{
