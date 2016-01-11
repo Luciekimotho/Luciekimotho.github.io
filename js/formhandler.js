@@ -24,7 +24,7 @@ function handleFormSubmit(event) { // handles form submit withtout any jquery
         xhr.onreadystatechange = function() {
             console.log(xhr.status, xhr.statusText)
             console.log(xhr.responseText);
-            document.getElementById('myForm').style.display = 'none'; // hide form
+            document.getElementById('myForm').style.display = 'block'; // hide form
             document.getElementById('thankYouMsg').style.display = 'block';
             return;
         };
