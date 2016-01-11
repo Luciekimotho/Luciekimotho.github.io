@@ -1,50 +1,12 @@
-$(document).ready(function () {
-            var active1 = false;
-            var active2 = false;
-            var active3 = false;
-            var active4 = false;
+(function () {
 
-            $('.nav-menu').on('mousedown touchstart', function () {
-                    if (!active1) $(this).find('.home-i').css({
-                        'background-color': 'gray',
-                        'transform': 'translate(125px, 0px)'
-                    });
-                else $(this).find('.home-i').css({
-                        'background-color': 'gray',
-                        'transform': 'none'
-                    });
+    var documentEl = $(document) //new variable
+    paralaxBg = $('div.home');
 
-                if (!active2) $(this).find('.profile-i').css({
-                        'background-color': 'gray',
-                        'transform': 'translate(105px, 60px)'
-                    });
-                else $(this).find('.profile-i').css({
-                        'background-color': 'darkGray',
-                        'transform': 'none'
-                    });
+    documentEl.on('scroll', function () {
+        var currScrollPos = documentEl.scrollTop(); //gets how much scrolled from top in pixels
+        parallaxBg.css('background-position', '0' + -currScrollPos / 4 + 'px'); //the minus makes the background move one step up when we scroll.the zero means we dont change the margin.
+    });
 
-                if (!active3) $(this).find('.portfolio-i').css({
-                        'background-color': 'gray',
-                        'transform': 'translate(60px, 105px)'
-                    });
-                else $(this).find('.portfolio-i').css({
-                        'background-color': 'gray',
-                        'transform': 'none'
-                    });
-
-                if (!active4) $(this).find('.contact-i').css({
-                        'background-color': 'gray',
-                        'transform': 'translate(0px, 125px)'
-                    });
-                else $(this).find('.contact-i').css({
-                        'background-color': 'gray',
-                        'transform': 'none'
-                    });
-
-                active1 = !active1;
-                active2 = !active2;
-                active3 = !active3;
-                active4 = !active4;
-
-                });
-            });
+})();
+}
