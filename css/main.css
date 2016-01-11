@@ -88,13 +88,28 @@ body{
 
 
 .logo{
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .home{
+    height: 100vh;
+    text-align: center;
+    background-image: url(http://www.psdgraphics.com/file/stars-background.jpg);
+    margin-top: -12px;
+}
 
+.home p, h5{
+    font-size: 1.5em;
+    display: block;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .skills{
     text-align: center;
@@ -103,6 +118,7 @@ body{
 .skills img{
     height: 125px;
     width: 175px;
+
 }
 
 .portfolio{
