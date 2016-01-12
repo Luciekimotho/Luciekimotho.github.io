@@ -1,7 +1,7 @@
 (function () {
 
     var documentEl = $(document) //new variable
-    paralaxBg = $('div.home');
+    paralaxBg = $('div.home, div.portfolio');
 
     documentEl.on('scroll', function () {
         var currScrollPos = documentEl.scrollTop(); //gets how much scrolled from top in pixels
