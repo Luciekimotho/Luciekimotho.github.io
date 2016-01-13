@@ -1,5 +1,5 @@
 body{
-    font-family: 'Delius', cursive;
+    font-family: 'Railway', serif;
 
 }
 
@@ -14,7 +14,7 @@ body{
 .home{
     height: 100vh;
     text-align: center;
-    /*background-image: url(http://www.psdgraphics.com/file/stars-background.jpg);*/
+    background-image: url(http://www.psdgraphics.com/file/stars-background.jpg);
     /*background-image: url(http://www.blogerpa.com/wallpaper/the/the-empty-road-your-wallpaper-with-abstract-wallpapers-hd-wallpaper-abstract-hd-.jpg);*/
     margin-top: -12px;
     background-repeat: no-repeat;
@@ -25,6 +25,7 @@ body{
 	transition:all 0.25 ease;
     margin: ;
     padding: 0px;
+    color: white;
 
 }
 
@@ -110,7 +111,8 @@ body{
    opacity: 1;
 }
 .contact {
-
+    margin-top: 55px;
+    padding-bottom: 5px;
     /*color: white;*/
 }
 .thanksMsg{
@@ -119,3 +121,5 @@ body{
 
 footer{
     text-align: center;
+    background-color: rgb(100,100,100);
+    padding: 5px;
