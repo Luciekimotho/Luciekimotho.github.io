@@ -34,78 +34,93 @@
 </head>
 
 <body>
-    <div class="home hoverZoomFade wow animated fadeIn" data-wow-delay=".25s">
-        <h3>LUCY KIMOTHO</h3>
-        <p>A web and mobile apps developer. </p>
 
+    <div id="menu" class="my-navbar">
+        <a href="#menu" class="menu-link"><i class="fa fa-bars fa-2x"></i></a>
+        <ul class=" nav-list">
+            <li class="nav-item"><a class="nav-link" href="#home"><i class="fa fa-home fa-2x"></i>Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about"><i class="fa fa-user fa-2x"></i>About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio"><i class="fa fa-suitcase fa-2x"></i>Work</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact"> <i class="fa fa-envelope-o fa-2x"></i>Contact</a>
+            </li>
+        </ul>
     </div>
-    <div class="mastuff">
-        <div class="skills">
+    <div class="container">
+
+        <div class="home active hoverZoomFade wow animated fadeIn" data-wow-delay=".25s">
+            <h3>LUCY KIMOTHO</h3>
+            <p>A web and mobile apps developer. </p>
+        </div>
+    </div>
+
+    <div class="mastuff row">
+        <div class="skills col l6 m12 s12">
             <h4>SKILLS</h4>
             <i class="fa fa-code fa-2x"></i>
             <div class="row">
-                <div class="col s12 m6 l4">
-                    Mobile development:
-                    <br> Java
-                    <br>
-                    <!--<img src="img/java.jpg"><br>-->
-                </div>
-                <div class="col s12 m6 l4">
-                    <p>Web development:
+
+                <div class="">
+                    <p>Front-end design:
                         <br> HTML
                         <br> CSS
                         <br> JavaScript
-                        <br>
-                        <br>
-                        <br>
                         <!--<img src="img/code.png">-->
-                </div>
-                <div class="col s12 l4">
-                    UX(user Experience)
+                        <!--                </div>-->
+                        <!--                <div class="">-->
+                        <br> Mobile development:
+                        <br> Java
+                        <br>
+                        <!--<img src="img/java.jpg"><br>-->
+                        <!--                </div>-->
+                        <!--                <div class="">-->
+                        UX(user Experience)
                 </div>
 
 
             </div>
         </div>
 
-        <div class="education wow animated fadeInUp">
+        <div class="education wow animated fadeInUp col l6 m12 s12">
             <h4>EDUCATION</h4>
-            <p>September 2015- December 2015: Web and Mobile Development --Moringa School
-                <br> January 2014 - Present: Bachelor degree in Computer Science -- University of Nairobi.
+            <p>September 2015- December 2015:
+                <br>Web and Mobile Development --Moringa School
+                <br>
+                <br> January 2014 - Present:
+                <br>Bachelor degree in Computer Science -- University of Nairobi.
                 <br>
                 <br>
                 <br>
             </p>
         </div>
-
-        <div class="portfolio wow animated fadeInUp">
-            <h4>PORTFOLIO</h4>
-            <div class="row">
-                <div class="port-img col s12 m6 l4">
-                    <img src="img/limitless.png" />
-                    <p class="text">Limitless Mamlaka- a website for a church youth group. Made by HTML5 & CSS.
-                        <br>
-                        <a target="_blank" href="http://limitless.bitballoon.com/">Visit site</a></p>
-                    <h6>Limitless Mamlaka website</h6>
-                </div>
-                <div class="port-img col s12 m6 l4">
-                    <a href=""><img src="img/splash.png" /></a>
-                    <p class="text">Fashion House App - An android application for on line shopping
-                        <br>
-                        <a target="_blank" href="https://appetize.io/app/zbr5x4c1n3gf9ft1ackntma9yw ">Visit site</a></p>
-                    <h6>FashionHouse Android App</h6>
-                </div>
-
-                <div class=" port-img col s12 m6 l4">
-                    <a href=""><img src="img/resturant.png"></a>
-                    <p class="text">Resturant Landing Page - Landing page for an android app. Enabling users subscribe to a mailing list when the app is out.
-                        <br>
-                        <a target="_blank" href="http://resturant.bitballon.com/">Visit site</a></p>
-                    <h6>Landing page for an app</h6>
-                </div>
+    </div>
+    <div class="portfolio wow animated fadeInUp">
+        <h4>PORTFOLIO</h4>
+        <div class="row">
+            <div class="port-img col s12 m6 l4">
+                <img src="img/limitless.png" />
+                <p class="text">Limitless Mamlaka- a website for a church youth group. Made by HTML5 & CSS.
+                    <br>
+                    <a target="_blank" href="http://limitless.bitballoon.com/">Visit site</a></p>
+                <h6>Limitless Mamlaka website</h6>
+            </div>
+            <div class="port-img col s12 m6 l4">
+                <a href=""><img src="img/splash.png" /></a>
+                <p class="text">Fashion House App - An android application for on line shopping
+                    <br>
+                    <a target="_blank" href="https://appetize.io/app/zbr5x4c1n3gf9ft1ackntma9yw ">Visit site</a></p>
+                <h6>FashionHouse Android App</h6>
             </div>
 
+            <div class=" port-img col s12 m6 l4">
+                <a href=""><img src="img/resturant.png"></a>
+                <p class="text">Resturant Landing Page - Landing page for an android app. Enabling users subscribe to a mailing list when the app is out.
+                    <br>
+                    <a target="_blank" href="http://resturant.bitballon.com/">Visit site</a></p>
+                <h6>Landing page for an app</h6>
+            </div>
         </div>
+
     </div>
 
     <!--Contact form section-->
@@ -182,10 +197,9 @@
 
         Lucie Kimotho| &copy; 2016
     </footer>
+
     <script data-cfasync="false" type="text/javascript" src="js/formhandler.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <!--Links for smooth scroll-->
-    <script type="text/javascript" src="javascript/smoothscroll.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script>
@@ -195,6 +209,14 @@
         })
         wow.init();
     </script>
-</body>
 
+    // Initialize collapse button
+
+</body>
+<script>
+        $(".menu-link").click(function () {
+            $("#menu").toggleClass("active");
+            $(".container").toggleClass("active");
+        });
+    </script>
 </html>
