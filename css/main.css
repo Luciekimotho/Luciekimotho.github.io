@@ -54,7 +54,8 @@ body h4{
     z-index: 200;
     background: #000;
     background-color: rgba(255,255,255, 0.3);
-     font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
 
 }
 
@@ -73,6 +74,13 @@ body h4{
     margin-left: -20px;
 }
 
+.nav-link:hover{
+    color: black;
+}
+
+.nav-link:active{
+    color: blue;
+}
 
 
 .container {
